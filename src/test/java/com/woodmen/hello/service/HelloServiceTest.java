@@ -17,6 +17,6 @@ public class HelloServiceTest {
 
     @Test
     public void testHelloWorld() throws Exception {
-        assertThat(helloService.helloWorld()).isEqualTo("Hello World!");
+        assertThat(helloService.helloWorld().getMessage()).isEqualTo("Hello World!");
     }
 }
